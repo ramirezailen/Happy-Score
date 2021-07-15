@@ -17,9 +17,9 @@ De esa forma, obtuvimos la media de todo el conjunto de datos y la media de las 
 
 ## Etiquetado de puntos en el gráfico
 En el dataframe "richest" que contiene todos los países que tienen un ingreso promedio de más de 15.000USD, usamos el ingreso promedio
-y la puntuación feliz para colocal los puntos en el gráfico y usamos el nombre del país para que sea la etiqueta. 
+y la puntuación feliz para colocar los puntos en el gráfico y usamos el nombre del país para que sea la etiqueta. 
 Para esto, primero generamos la función plot con los valores x (richest[avg_income]) e y (richest[happy_Score]) 
-y los muestra en el gráfico. 
+que van a conformar el gráfico. 
 Pero no muestra qué país es cuál punto. Por lo cual, generamos etiquetas de texto: para el ingreso promedio más rico y el más bajo.
 Se puede ver que Luxemburgo, a pesar de que es el más rico de este conjunto de países, no tiene la puntuación feliz más alta. 
 
@@ -28,6 +28,6 @@ De esta forma, etiquetamos cada punto en el gráfico con la función "iterrows"
 
 
 Entonces, lo que tenemos es el -ingreso- trazado en el eje x y la -puntuación feliz- trazada en el eje y. Retomando la pregunta ¿Los ingresos están conectados de alguna manera a la felicidad?
-Y podemos ver: a medida que los ingresos aumentan de izquierda a derecha la felicidad parece aumentar.
+Podemos ver: a medida que los ingresos aumentan de izquierda a derecha, la felicidad parece aumentar.
 Pero también se puede ver en la parte superior izquierda del gráfico, hay varios países que tienen ingresos bajos pero parecen ser tan felices como los países con mayores ingresos. 
 
