@@ -23,11 +23,11 @@ que van a conformar el gráfico.
 Pero no muestra qué país es cuál punto. Por lo cual, generamos etiquetas de texto: para el ingreso promedio más rico y el más bajo.
 Se puede ver que Luxemburgo, a pesar de que es el más rico de este conjunto de países, no tiene la puntuación feliz más alta. 
 
-Luego, se presenta todos los nombres de países en el gráfico iterando a través de las filas de el Data Frame. 
-De esta forma, etiquetamos cada punto en el gráfico con la función "iterrows"
+Luego, se presenta todos los nombres de los países en el gráfico iterando a través de las filas de el Data Frame. 
+De esta forma, etiquetamos cada punto en el gráfico con la función "iterrows".
 
 
 Entonces, lo que tenemos es el -ingreso- trazado en el eje x y la -puntuación feliz- trazada en el eje y. Retomando la pregunta ¿Los ingresos están conectados de alguna manera a la felicidad?
-Podemos ver: a medida que los ingresos aumentan de izquierda a derecha, la felicidad parece aumentar.
+Podemos ver que a medida que los ingresos aumentan de izquierda a derecha, la felicidad parece aumentar.
 Pero también se puede ver en la parte superior izquierda del gráfico, hay varios países que tienen ingresos bajos pero parecen ser tan felices como los países con mayores ingresos. 
 
