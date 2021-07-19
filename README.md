@@ -31,3 +31,14 @@ Entonces, lo que tenemos es el -ingreso- trazado en el eje x y la -puntuación f
 Podemos ver que a medida que los ingresos aumentan de izquierda a derecha, la felicidad parece aumentar.
 Pero también se puede ver en la parte superior izquierda del gráfico, hay varios países que tienen ingresos bajos pero parecen ser tan felices como los países con mayores ingresos. 
 
+## Implementación K-Means
+Replicamos la información que encontramos mirando el gráfico usando K-Means, de esta forma identificamos los puntos de una manera estadisticamente precisa. 
+Para que podamos comparar nuestra interpretación visual de los datos con la interpretación de K-Means de los datos.
+
+Elegimos 3 clústeres.
+Con la función km_res.cluster_centers_ vimos dónde están los centros de clústeres. Y se encontró que hay un grupo de ingresos de 2.100 con una calificación de felicidad baja. Otro grupo con ingresos muy altos y alta felicidad y el último grupo que tiene ingresos bajos pero una puntuación de felicidad alta. 
+Trazamos estos puntos en un gráfico. 
+En color naranja están representados los 3 grupos: en la parte superior derecha, el ingreso alto y alta felicidad. Más abajo, el ingreso más bajo pero una buena puntuación de felicidad. Por último, el ingreso más bajo con una baja puntuación de felicidad.
+
+Entonces, K-Means encontró el mismo conjunto de puntos de datos que notamos a simple vista. 
+
